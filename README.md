@@ -55,16 +55,26 @@ Cenario: Preencher os campos do formulário
 ---------------------------------------------------------------------------      
 ### Tecnologias utilizadas:<br>
 
-   - [x] Java: Linguagem de programacão para desenvolvedores<br>
-   - [x] Maven: Gerenciador de dependencias para o Java<br>
-   - [x] Cucumber: Framework responsável por traduzir uma linguagem humana em código Java<br>
-   - [x] Selenium: Framework responsável por fazer a integracão do código Java com a linguagem Gurking (Cucumber), abrindo o browser fazendo o teste de comportamento<br>
+   :heavy_check_mark: Java
+Linguagem de programacao para desenvolvimento da aplicacao<br>
+
+:heavy_check_mark: Maven
+Gerenciador de dependencias para o <b>Java</b><br>
+
+:heavy_check_mark: <b>Cucumber</b><br>
+Framework responsavel por traduzir uma linguagem humana em código Java
+
+:heavy_check_mark: <b>Selenium</b><br>
+Framework responsável por fazer a integração do código Java com a linguagem GutKing(Cucumber) abrindo o browser e fazendo o teste de comportamento<br>
+
 ---------------------------------------------------------------------------
 ### Pré-requisitos:<br>
 
-   - [x] Instalar o Java: https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR<br>
-   - [x] Instalar JDK https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html<br>
-   - [x] Verificar se o JAVA_HOME está configurado no seu computador<br>
+- Instalar o Java:<br>
+https://www.java.com/pt-BR/download/
+- Instalar JDK:<br>
+https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html
+
 ---------------------------------------------------------------------------
 #### Configurando Selenium no seu computador:<br>
 Fazendo download do Chrome Webdriver e colocar o arquivo descompactado da pasta driver na raiz do projeto<br>
@@ -117,5 +127,3 @@ test.bat
 │                   └───fernanda
    
 ```
-
-
