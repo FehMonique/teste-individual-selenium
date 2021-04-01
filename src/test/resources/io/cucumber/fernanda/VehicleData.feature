@@ -1,7 +1,7 @@
 # language: pt
 Funcionalidade: Teste automatizado no site SampleApp
 
-    Cenario: Preencher os campos em Enter Vehicle Data
+    Cenario: Preencher os campos do formulário
         Dado que eu estou no site "http://sampleapp.tricentis.com/101/app.php"
         E clico na opcao Make
         Entao seleciono a opcao Audi
@@ -22,7 +22,7 @@ Funcionalidade: Teste automatizado no site SampleApp
         E digito no campo List Price "1000"
         E digito no campo License Plate Number "ABC1234"
         E digito no campo Annual Mileage "100"
-        Entao clico em Next
+        Entao clico em Insurant
         E digito no campo First Name o nome "Fernanda"
         E digito  no campo Last Name o sobrenome "Castro"
         E digito no campo Date of Birth a data "05/30/1985"
@@ -32,11 +32,11 @@ Funcionalidade: Teste automatizado no site SampleApp
         E clico no campo Occupation
         Entao seleciono a opcao Employee
         E clico no campo Hobbies
-        Entao clico em NextP    
+        Entao clico em Product    
         E digito no campo Start Date "05/20/2022"
         E seleciono no campo Insurance Sum "7.000.000,00"
         E seleciono no campo Merit Rating "Bonus 1"
         E seleciono no campo Damage Insurance "Full Coverage"
         E seleciono no campo Optional Products a opcao Euro Protection
         E seleciono no campo Cortesy Car "Yes"
-        Entao clico em NextS
+        Entao clico em Price

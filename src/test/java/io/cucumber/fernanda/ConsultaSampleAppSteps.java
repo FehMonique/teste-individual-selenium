@@ -145,9 +145,9 @@ public void digito_no_campo_Annual_Mileage(String string) {
 }
 
 
-@Entao("clico em Next")
-public void clico_em_Next() {
-    WebElement input = browser.findElement( By.cssSelector("#nextenterinsurantdata"));
+@Entao("clico em Insurant")
+public void clico_em_Insurant() {
+    WebElement input = browser.findElement( By.cssSelector("#enterinsurantdata"));
     input.click();
 }
 
@@ -211,9 +211,9 @@ public void clico_no_campo_Hobbies() {
   
 }
 
-@Entao("clico em NextP")
-public void clico_em_NextP() {
-    WebElement input = browser.findElement( By.cssSelector("#nextenterproductdata"));
+@Entao("clico em Product")
+public void clico_em_Product() {
+    WebElement input = browser.findElement( By.cssSelector("#enterproductdata"));
     input.click();
 }
 
@@ -247,8 +247,8 @@ public void seleciono_no_campo_Damage_Insurance(String string) {
 
 @Entao("seleciono no campo Optional Products a opcao Euro Protection")
 public void seleciono_no_campo_Optional_Products_a_opcao_Euro_Protection() {
-    WebElement input = browser.findElement( By.cssSelector(".ideal-check"));
-    
+    WebElement input = browser.findElement( By.cssSelector("div.field.idealforms-field.idealforms-field-checkbox"));
+    input.click();
     
 }
 
@@ -258,9 +258,9 @@ public void seleciono_no_campo_Cortesy_Car(String string) {
     input.sendKeys(string);
 }
 
-@Entao("clico em NextS")
-public void clico_em_NextS() {
-    WebElement input = browser.findElement( By.cssSelector("#nextselectpriceoption"));
+@Entao("clico em Price")
+public void clico_em_Price() {
+    WebElement input = browser.findElement( By.cssSelector("#selectpriceoption"));
     input.click();
 }
 
